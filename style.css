@@ -1,0 +1,29 @@
+body
+{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background-color:black;
+    }
+
+h1
+{
+    color:white;
+    font-size:50px;
+    font-family: 'Press Start 2P', cursive;
+}
+span::before
+{
+    content: '';
+    animation: word-swith 3s infinite;
+}
+
+@keyframes word-swith 
+{
+    0% {content: '💻'}
+    100%{content: '🎮';}
+    
+    }
+
